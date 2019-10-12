@@ -1,3 +1,3 @@
 #!bin/bash
-g++ -o run $1.cpp -std=c++14
+g++ -o run ./answer/$1.cpp -std=c++14
 ./run
